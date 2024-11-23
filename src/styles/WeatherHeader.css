@@ -1,0 +1,31 @@
+.weather-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.location {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+.weather-icon {
+    width: 60px;
+    height: 60px;
+  }
+.today {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.clock {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
